@@ -172,7 +172,6 @@ void mutacionHijos (Individuo * hijos)
 void cruzarSeleccion (Individuo * seleccion)
 {
     int i, j, punto, aux;
-    double x, y;
 
     for(i=0; i<POBLACION-1; i+=2)
     {
